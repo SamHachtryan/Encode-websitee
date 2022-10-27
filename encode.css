@@ -1,0 +1,254 @@
+nav {
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 22;
+    background-color: rgba(0,0,0,0.7);
+    align-items: center;
+	justify-content: space-between;
+}
+
+.navig {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none!important;
+	width: 1174px;
+	margin: auto;
+}
+
+li {
+	padding: 12px;
+}
+
+* {
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav ul li a span  {
+	color: #52b46e;
+	font-family: Verdana;
+}
+
+a {
+	text-decoration: none;
+	color: #E3D7D5;
+}
+
+.navli {
+	margin-left: auto;
+}
+
+i {
+	font-size: 25px!important;
+	color: #52b46e;
+	transition: all .3s ease;
+}
+
+i:hover {
+	transform: scale(1.3);
+}
+
+.sec1 {
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+	background-image: url(https://proforientator.ru/publications/articles/New%20Folder/programmist_st.jpg);
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.6);
+}
+
+.zagalovok {
+	margin-top: 90px;
+	color: white ;
+	text-align: center;
+	font-size: 80px;
+	font-family: Comic Sans MS;
+	transition: all .3s ease;
+}
+
+
+.zagalovok:hover {
+	transform: scale(0.9);
+}
+
+span {
+	color: #52b46e
+}
+
+.regestr {
+	padding: 19px;
+    border-radius: 50px;
+    color: white;
+    background-color: #52b46e;
+    transition: all .3s ease;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 150px;
+}
+
+.regestr:hover {
+	background-color: rgba(0,0,0,0.3);
+}
+
+.p1 {
+	text-align: center;
+	margin-bottom: 25px;
+	color: #E3D7D5;
+	font-family: Verdana;
+	font-size: 18px;
+}
+
+.perehod {
+	height: 20px;
+	background-size: cover;
+	background-color: #C2A7A2;
+}
+
+.sec2 {
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+	background-image: url(https://rsv.ru/blog/wp-content/uploads/2021/09/programmist-918x516.jpg);
+}
+
+.zagalovok2 {
+	margin-top: 190px;
+	color: white ;
+	text-align: left;
+	font-size: 50px;
+	font-family: Comic Sans MS;
+	margin-left: 15px;
+}
+
+
+.inf1 {
+	padding: 50px;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    color: #E6CBC5;
+    border-radius: 10%;
+    background-color: rgba(5,0,0,0.8);
+    transition: all .3s ease;
+}
+
+.inf1:hover {
+	transform: scale(1.1);
+}
+
+
+h1	{
+	color: #E36D57;
+	text-align: center;
+}
+
+.li2 {
+	color:  
+}
+
+.inf2 {
+	padding: 40px;
+    width: 350px;
+    height: 200px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(4,0,0,0.8);
+    color: #B19894;
+    border-radius: 10%;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.inf2:hover  {
+	transform: scale(0.9);
+}
+
+.sec2 .parent {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.sec3 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(http://mgau.ru/upload/iblock/6ab/6ab0fb46ee8bc5e35ca4c0e788067459.jpg);
+}
+
+.h1_2 {
+	color: #E6CBC5;
+	font-size: 40px;
+}
+
+.zagalovok3 {
+	color: white;
+}
+
+.inf3 {
+	padding: 50px;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    color: #E6CBC5;
+    border-radius: 10%;
+    background-color: rgba(5,0,0,0.8);
+    transition: all .3s ease;
+}
+
+.inf3:hover {
+	transform: scale(1.1);
+}
+
+.pinfo2 {
+	font-size: 20px;
+	color: 
+}
+
+.inf4 {
+	padding: 50px;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    color: #E6CBC5;
+    border-radius: 10%;
+    background-color: rgba(5,0,0,0.8);
+    transition: all .3s ease;
+}
+
+.inf4:hover {
+	transform: scale(0.9);
+}
+
+.inf5 {
+	padding: 50px;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    color: #E6CBC5;
+    border-radius: 10%;
+    background-color: rgba(5,0,0,0.8);
+    transition: all .3s ease;
+}
+
+.inf5:hover {
+	transform: scale(0.9);
+}
+
+.sec3 .parent {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+
+.d-flex {
+	display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: baseline;
+}
